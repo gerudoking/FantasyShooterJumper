@@ -12,7 +12,12 @@ public class Jump : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
-            GetComponent<Rigidbody2D>().AddForce(JumpForce);
+        if (Input.GetKeyDown(KeyCode.UpArrow)) {
+            Debug.Log("Jumped");
+            if (rb.velocity.y < 0) {
+                rb.velocity = Vector2.zero;
+            }
+            rb.AddForce(JumpForce * Time.deltaTime, ForceMode2D.Impulse);
+        }
     }
 }
