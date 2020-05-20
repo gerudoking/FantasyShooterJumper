@@ -17,7 +17,8 @@ public class Jump : MonoBehaviour
             if (rb.velocity.y < 0) {
                 rb.velocity = Vector2.zero;
             }
-            rb.AddForce(JumpForce * Time.deltaTime, ForceMode2D.Impulse);
+            //rb.AddForce(JumpForce * Time.deltaTime, ForceMode2D.Impulse);
+            rb.velocity = new Vector2(rb.velocity.x, JumpForce.y);
         }
     }
 }
