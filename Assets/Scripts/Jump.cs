@@ -2,12 +2,14 @@
 
 public class Jump : MonoBehaviour
 {
-    public Vector2 JumpForce;
-    Rigidbody2D rb;
+    public Vector2 JumpForce = Vector2.zero;
+    private Rigidbody2D rb = null;
+    private Animator anim = null;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        anim = GetComponent<Animator>();
     }
 
     void Update()
@@ -19,6 +21,8 @@ public class Jump : MonoBehaviour
             }
             //rb.AddForce(JumpForce * Time.deltaTime, ForceMode2D.Impulse);
             rb.velocity = new Vector2(rb.velocity.x, JumpForce.y);
+
+            anim.SetTrigger("jump");
         }
     }
 }
