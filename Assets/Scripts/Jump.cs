@@ -22,7 +22,7 @@ public class Jump : MonoBehaviour
             //rb.AddForce(JumpForce * Time.deltaTime, ForceMode2D.Impulse);
             rb.velocity = new Vector2(rb.velocity.x, JumpForce.y);
 
-            anim.SetTrigger("jump");
+            //anim.SetTrigger("jump");
         }
     }
 }

@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab1b8b0802e62a54ab86e07997b54f15, type: 3}
   m_Name: BaseHorizontalInfo
   m_EditorClassIdentifier: 
-  speed: 4
+  speed: 8

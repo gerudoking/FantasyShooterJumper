@@ -27,7 +27,7 @@ public class ShootController : MonoBehaviour
 
     public void CreateBullet() {
         GameObject obj = Instantiate(projectilePrefab, transform.position
-            + new Vector3(0.25f, 0), Quaternion.identity);
+            + new Vector3(1.0f, 0), Quaternion.identity);
 
         obj.GetComponent<Rigidbody2D>().AddForce(Vector2.right * shootSpeed * Time.deltaTime);
         timer = shootCooldown;
