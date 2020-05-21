@@ -44,7 +44,7 @@ public class HorizontalMovement : MonoBehaviour
                 step /= parallaxFactor;
             }
 
-            rb.MovePosition((Vector2)transform.position + new Vector2(step * Time.fixedDeltaTime, 0));
+            rb.velocity = new Vector2(step * Time.fixedDeltaTime, rb.velocity.y);
         }
     }
 }

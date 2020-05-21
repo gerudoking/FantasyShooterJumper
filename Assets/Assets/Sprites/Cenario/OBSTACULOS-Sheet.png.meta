@@ -1,7 +1,46 @@
 fileFormatVersion: 2
 guid: bffeb044310b56844ad2a086d76765e5
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -1458078693909504493
+    second: OBSTACULOS-Sheet_0
+  - first:
+      213: -3841919195156666505
+    second: OBSTACULOS-Sheet_1
+  - first:
+      213: -4669449402993150123
+    second: OBSTACULOS-Sheet_2
+  - first:
+      213: -1446247444859376759
+    second: OBSTACULOS-Sheet_3
+  - first:
+      213: 6316679258892029953
+    second: OBSTACULOS-Sheet_4
+  - first:
+      213: -4413534284066651197
+    second: OBSTACULOS-Sheet_5
+  - first:
+      213: 478104579131756202
+    second: OBSTACULOS-Sheet_6
+  - first:
+      213: -834933694157523201
+    second: OBSTACULOS-Sheet_7
+  - first:
+      213: 6970697776926663189
+    second: OBSTACULOS-Sheet_8
+  - first:
+      213: -5352262340501604830
+    second: OBSTACULOS-Sheet_9
+  - first:
+      213: 3254610845849868533
+    second: OBSTACULOS-Sheet_10
+  - first:
+      213: 3304111671086691536
+    second: OBSTACULOS-Sheet_11
+  - first:
+      213: 1675243281426423901
+    second: OBSTACULOS-Sheet_12
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -40,7 +79,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0

@@ -1,25 +1,31 @@
 fileFormatVersion: 2
-guid: a80268199246fb64c9b38b875826ec80
+guid: 374acdab5ec44d94ba2583ad4bca0bd9
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6388612913705639034
-    second: Tocha-Sheet_0
+      213: 1789602966572625018
+    second: spr_hornedBeholder_0
   - first:
-      213: 6334272854618815037
-    second: Tocha-Sheet_1
+      213: -1372159685573851847
+    second: spr_hornedBeholder_1
   - first:
-      213: -6759307078945612285
-    second: Tocha-Sheet_2
+      213: -4906625143574386465
+    second: spr_hornedBeholder_2
   - first:
-      213: -9006611597419508556
-    second: Tocha-Sheet_3
+      213: -4757373281871010044
+    second: spr_hornedBeholder_3
   - first:
-      213: -7854184809383681509
-    second: Tocha-Sheet_4
+      213: -8175566673058140145
+    second: spr_hornedBeholder_4
   - first:
-      213: -8407617294148271234
-    second: Tocha-Sheet_5
+      213: 2718390174292395607
+    second: spr_hornedBeholder_5
+  - first:
+      213: 2418805331493277892
+    second: spr_hornedBeholder_6
+  - first:
+      213: -6314613366832958051
+    second: spr_hornedBeholder_7
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -105,127 +111,169 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Tocha-Sheet_0
+      name: spr_hornedBeholder_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 37
-        height: 57
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a7cd5e0c899e8a850800000000000000
-      internalID: 6388612913705639034
+      spriteID: a7ceb879a62f5d810800000000000000
+      internalID: 1789602966572625018
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tocha-Sheet_1
+      name: spr_hornedBeholder_1
       rect:
         serializedVersion: 2
-        x: 37
+        x: 32
         y: 0
-        width: 37
-        height: 57
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d3a34f1d99bd7e750800000000000000
-      internalID: 6334272854618815037
+      spriteID: 9354246390c15fce0800000000000000
+      internalID: -1372159685573851847
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tocha-Sheet_2
+      name: spr_hornedBeholder_2
       rect:
         serializedVersion: 2
-        x: 74
+        x: 64
         y: 0
-        width: 37
-        height: 57
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 30ed9a7260e1232a0800000000000000
-      internalID: -6759307078945612285
+      spriteID: fd8af37ad6a28ebb0800000000000000
+      internalID: -4906625143574386465
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tocha-Sheet_3
+      name: spr_hornedBeholder_3
       rect:
         serializedVersion: 2
-        x: 111
+        x: 96
         y: 0
-        width: 37
-        height: 57
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4bc85e1a876120380800000000000000
-      internalID: -9006611597419508556
+      spriteID: 407e42ea43a6afdb0800000000000000
+      internalID: -4757373281871010044
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tocha-Sheet_4
+      name: spr_hornedBeholder_4
       rect:
         serializedVersion: 2
-        x: 148
+        x: 128
         y: 0
-        width: 37
-        height: 57
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b12aa647784500390800000000000000
-      internalID: -7854184809383681509
+      spriteID: f00f8d64d6d8a8e80800000000000000
+      internalID: -8175566673058140145
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tocha-Sheet_5
+      name: spr_hornedBeholder_5
       rect:
         serializedVersion: 2
-        x: 185
+        x: 160
         y: 0
-        width: 37
-        height: 57
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e738cdecd94225b80800000000000000
-      internalID: -8407617294148271234
+      spriteID: 7564c9bf579a9b520800000000000000
+      internalID: 2718390174292395607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_hornedBeholder_6
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c05a7432a2519120800000000000000
+      internalID: 2418805331493277892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_hornedBeholder_7
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d95fcff599cfd58a0800000000000000
+      internalID: -6314613366832958051
       vertices: []
       indices: 
       edges: []
@@ -239,9 +287,7 @@ TextureImporter:
     indices: 
     edges: []
     weights: []
-    secondaryTextures:
-    - texture: {fileID: 2800000, guid: a0c09efb88253eb458edcbfd33771005, type: 3}
-      name: _Emission
+    secondaryTextures: []
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
