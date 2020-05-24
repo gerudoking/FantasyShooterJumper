@@ -7,6 +7,8 @@ public class MainMenu : MonoBehaviour
 {
     [SerializeField] private BaseHorizontalValue value = null;
     [SerializeField] private Transform gameObjects = null;
+    [SerializeField] private GameObject menuObjects = null;
+    [SerializeField] private GameObject points = null;
     public static int gameState = 0;
 
     public void PlayGame ()
@@ -14,10 +16,9 @@ public class MainMenu : MonoBehaviour
         value.speed *= 2;
         gameState = 1;
         gameObjects.gameObject.SetActive(true);
+        points.SetActive(true);
 
-        foreach(Transform t in transform) {
-            t.gameObject.SetActive(false);
-        }
+        menuObjects.SetActive(false);
     }
 
     public void QuitGame()

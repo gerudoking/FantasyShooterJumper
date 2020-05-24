@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 5679904096794375127}
   - component: {fileID: 5679904096794375130}
   - component: {fileID: 5679904096794375131}
+  - component: {fileID: 2433917948186545040}
   m_Layer: 0
   m_Name: PlayerTest
   m_TagString: Untagged
@@ -102,7 +103,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 0.4
+  m_GravityScale: 1
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
@@ -146,7 +147,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: baa8ee1e0b1123947a1dc764d92c97f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  JumpForce: {x: 0, y: 3.4}
+  JumpForce: {x: 0, y: 4.5}
 --- !u!95 &5679904096794375131
 Animator:
   serializedVersion: 3
@@ -166,6 +167,23 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &2433917948186545040
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5679904096794375124}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be403c1b051d79544a919ea64769b293, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameOverMenu: {fileID: 0}
+  gameObjects: {fileID: 0}
+  value: {fileID: 11400000, guid: a71f79f4fc96f9546856498dfca1d924, type: 2}
+  points: {fileID: 0}
+  gameoverPoints: {fileID: 0}
 --- !u!1 &5679904097462675552
 GameObject:
   m_ObjectHideFlags: 0

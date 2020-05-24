@@ -3,6 +3,7 @@ using UnityEngine.SceneManagement;
 
 public class GameOverMenu : MonoBehaviour
 {
+    [SerializeField] private GameObject menuObjects = null;
 
     public void Restart()
     {
@@ -11,7 +12,7 @@ public class GameOverMenu : MonoBehaviour
 
     public void Menu()
     {
-        SceneManager.LoadScene(0);
+        menuObjects.SetActive(true);
     }
     public void QuitGame()
     {
