@@ -15,7 +15,7 @@ public class ShootController : MonoBehaviour
     void Update()
     {
         //Atira caso pressione o botão
-        if (Input.GetKeyDown(KeyCode.Space) && timer <= 0) {
+        if (Input.GetKeyDown(KeyCode.Space) && timer <= 0 && !armAnim.GetCurrentAnimatorStateInfo(0).IsName("player_arm_attack_anim")) {
             armAnim.SetTrigger("attack");
             //CreateBullet();
         }

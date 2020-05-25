@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 1118450845135949727}
   - component: {fileID: 1118450845135949721}
   - component: {fileID: 3878763135972234754}
-  - component: {fileID: 8728782274322459458}
+  - component: {fileID: 1514968734462026996}
   m_Layer: 0
   m_Name: Spirit
   m_TagString: Obstaculo
@@ -54,7 +54,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  - {fileID: 2100000, guid: f91f99e6c994050479b7a1c85318007d, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -75,7 +75,7 @@ SpriteRenderer:
   m_SortingLayerID: -1668081199
   m_SortingLayer: 3
   m_SortingOrder: 0
-  m_Sprite: {fileID: 3086235772215356402, guid: e13615bb255bac0489f725b3f2670ccf,
+  m_Sprite: {fileID: -6439116153633889452, guid: f3698eaa4ddab4a45ade4a0652ebff0f,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -157,8 +157,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93e88a87450b7424cbd96d2d7d2520d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!70 &8728782274322459458
-CapsuleCollider2D:
+--- !u!58 &1514968734462026996
+CircleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -170,6 +170,6 @@ CapsuleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_Size: {x: 8, y: 2}
-  m_Direction: 1
+  m_Offset: {x: 0.36, y: 0.43}
+  serializedVersion: 2
+  m_Radius: 1.7

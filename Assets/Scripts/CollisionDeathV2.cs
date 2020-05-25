@@ -12,21 +12,43 @@ public class CollisionDeathV2 : MonoBehaviour
     [SerializeField] private GameObject points = null;
     [SerializeField] private Text gameoverPoints = null;
 
+    private Material mat;
+    private Material armMat;
+    private bool isDissolving = false;
+    private float fade = 1.0f;
+
+    private void Start() {
+        mat = GetComponent<SpriteRenderer>().material;
+        armMat = transform.GetChild(0).GetComponent<SpriteRenderer>().material;
+    }
+
     void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.tag == "Obstaculo")
         {
-            GameOver();
+            isDissolving = true;
         }
     }
 
     private void Update()
     {
+        if (isDissolving) {
+            fade -= Time.deltaTime * 2;
+
+            if (fade <= 0.0f) {
+                fade = 0.0f;
+                GameOver();
+            }
+
+            mat.SetFloat("_Fade", fade);
+            armMat.SetFloat("_Fade", fade);
+        }
+
         if (transform.position.y > Camera.main.ScreenToWorldPoint(new Vector3(0, Screen.height, 0)).y) {
-            GameOver();
+            isDissolving = true;
         }
         if (transform.position.y < Camera.main.ScreenToWorldPoint(Vector3.zero).y) {
-            GameOver();
+            isDissolving = true;
         }
     }
 
@@ -39,10 +61,16 @@ public class CollisionDeathV2 : MonoBehaviour
             gameObjects.transform.GetChild(i).GetComponent<Spawner>().Restart();
         }
 
-        gameoverPoints.text = "Points: " + PointCounter.points;
+        gameoverPoints.text = "Score: " + PointCounter.points;
 
         PointCounter.points = 0;
 
+        isDissolving = false;
+
+        fade = 1.0f;
+
+        mat.SetFloat("_Fade", 1.0f);
+        armMat.SetFloat("_Fade", 1.0f);
         points.SetActive(false);
         gameOverMenu.SetActive(true);
         gameObjects.SetActive(false);

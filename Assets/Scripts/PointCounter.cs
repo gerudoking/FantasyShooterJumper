@@ -19,6 +19,6 @@ public class PointCounter : MonoBehaviour
             timer = pointTime;
         }
 
-        GetComponent<Text>().text = "Points: " + points;
+        GetComponent<Text>().text = "Score: " + points;
     }
 }
