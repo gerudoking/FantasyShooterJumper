@@ -13,7 +13,7 @@ public class Spawner : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        timer = spawnTime * Random.Range(1.5f, 3.0f);
+        timer = spawnTime/2/* * Random.Range(1.5f, 3.0f)*/;
     }
 
     // Update is called once per frame
@@ -24,11 +24,11 @@ public class Spawner : MonoBehaviour
         if(timer <= 0) {
             Instantiate(toSpawn[Random.Range(0, toSpawn.Length)], transform.position + offset, Quaternion.identity);
 
-            timer = spawnTime + Random.Range(1.0f, 2.5f);
+            timer = spawnTime/* + Random.Range(1.0f, 2.5f)*/;
         }
     }
 
     public void Restart() {
-        timer = spawnTime * Random.Range(2.5f, 5.0f);
+        timer = spawnTime/2/* * Random.Range(2.5f, 5.0f)*/;
     }
 }

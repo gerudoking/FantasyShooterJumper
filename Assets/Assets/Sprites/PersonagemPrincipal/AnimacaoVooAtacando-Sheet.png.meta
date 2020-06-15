@@ -29,6 +29,33 @@ TextureImporter:
   - first:
       213: -474526522616638545
     second: AnimacaoVooAtacando-Sheet_8
+  - first:
+      213: -5581428286958098855
+    second: AnimacaoVooAtacando-Sheet_0
+  - first:
+      213: -6984912530876450992
+    second: AnimacaoVooAtacando-Sheet_1
+  - first:
+      213: 8647797278509405168
+    second: AnimacaoVooAtacando-Sheet_2
+  - first:
+      213: 3302204486636548556
+    second: AnimacaoVooAtacando-Sheet_3
+  - first:
+      213: -2256089611440517913
+    second: AnimacaoVooAtacando-Sheet_4
+  - first:
+      213: 8927808548595951397
+    second: AnimacaoVooAtacando-Sheet_5
+  - first:
+      213: -3309094493867716479
+    second: AnimacaoVooAtacando-Sheet_6
+  - first:
+      213: 7522676796349186932
+    second: AnimacaoVooAtacando-Sheet_7
+  - first:
+      213: -4389904079056870486
+    second: AnimacaoVooAtacando-Sheet_8
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -119,8 +146,8 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 42
-        height: 38
+        width: 51
+        height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +155,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7b0bbd3588a101c00800000000000000
-      internalID: 869223900907286711
+      spriteID: 956ab807b88ca82b0800000000000000
+      internalID: -5581428286958098855
       vertices: []
       indices: 
       edges: []
@@ -138,10 +165,10 @@ TextureImporter:
       name: AnimacaoVooAtacando-Sheet_1
       rect:
         serializedVersion: 2
-        x: 42
+        x: 51
         y: 0
-        width: 42
-        height: 38
+        width: 51
+        height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -149,8 +176,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a0a335636d3b15840800000000000000
-      internalID: 5211143976460171786
+      spriteID: 0573fe19f0b901f90800000000000000
+      internalID: -6984912530876450992
       vertices: []
       indices: 
       edges: []
@@ -159,10 +186,10 @@ TextureImporter:
       name: AnimacaoVooAtacando-Sheet_2
       rect:
         serializedVersion: 2
-        x: 84
+        x: 102
         y: 0
-        width: 42
-        height: 38
+        width: 51
+        height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -170,8 +197,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d58858c38820849f0800000000000000
-      internalID: -484134175788136355
+      spriteID: 0f3942b8ec5230870800000000000000
+      internalID: 8647797278509405168
       vertices: []
       indices: 
       edges: []
@@ -180,10 +207,10 @@ TextureImporter:
       name: AnimacaoVooAtacando-Sheet_3
       rect:
         serializedVersion: 2
-        x: 126
+        x: 153
         y: 0
-        width: 42
-        height: 38
+        width: 51
+        height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -191,8 +218,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 06db70034aa9800d0800000000000000
-      internalID: -3456342684035728032
+      spriteID: cc13ca91c79c3dd20800000000000000
+      internalID: 3302204486636548556
       vertices: []
       indices: 
       edges: []
@@ -201,10 +228,10 @@ TextureImporter:
       name: AnimacaoVooAtacando-Sheet_4
       rect:
         serializedVersion: 2
-        x: 168
+        x: 204
         y: 0
-        width: 42
-        height: 38
+        width: 51
+        height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -212,8 +239,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bc30cb2791c486cb0800000000000000
-      internalID: -4870559324818373685
+      spriteID: 7ec83a0a372c0b0e0800000000000000
+      internalID: -2256089611440517913
       vertices: []
       indices: 
       edges: []
@@ -222,10 +249,10 @@ TextureImporter:
       name: AnimacaoVooAtacando-Sheet_5
       rect:
         serializedVersion: 2
-        x: 210
+        x: 255
         y: 0
-        width: 42
-        height: 38
+        width: 51
+        height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -233,8 +260,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c7613dc389de605b0800000000000000
-      internalID: -5402369464873052548
+      spriteID: 527e1c9c292f5eb70800000000000000
+      internalID: 8927808548595951397
       vertices: []
       indices: 
       edges: []
@@ -243,10 +270,10 @@ TextureImporter:
       name: AnimacaoVooAtacando-Sheet_6
       rect:
         serializedVersion: 2
-        x: 252
+        x: 306
         y: 0
-        width: 42
-        height: 38
+        width: 51
+        height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -254,8 +281,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: daef7d55eae8295c0800000000000000
-      internalID: -4210145822222319955
+      spriteID: 18050d4171cb312d0800000000000000
+      internalID: -3309094493867716479
       vertices: []
       indices: 
       edges: []
@@ -264,10 +291,10 @@ TextureImporter:
       name: AnimacaoVooAtacando-Sheet_7
       rect:
         serializedVersion: 2
-        x: 294
+        x: 357
         y: 0
-        width: 42
-        height: 38
+        width: 51
+        height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -275,8 +302,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 08d31cd896e5aac10800000000000000
-      internalID: 2065567186545622400
+      spriteID: 473877e70bae56860800000000000000
+      internalID: 7522676796349186932
       vertices: []
       indices: 
       edges: []
@@ -285,10 +312,10 @@ TextureImporter:
       name: AnimacaoVooAtacando-Sheet_8
       rect:
         serializedVersion: 2
-        x: 336
+        x: 408
         y: 0
-        width: 42
-        height: 38
+        width: 51
+        height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -296,8 +323,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fa31fee44a42a69f0800000000000000
-      internalID: -474526522616638545
+      spriteID: aa3e6c1bf7de313c0800000000000000
+      internalID: -4389904079056870486
       vertices: []
       indices: 
       edges: []

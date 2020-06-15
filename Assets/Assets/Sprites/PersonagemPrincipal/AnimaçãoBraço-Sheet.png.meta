@@ -32,6 +32,9 @@ TextureImporter:
   - first:
       213: -5486328918871446827
     second: "Anima\xE7\xE3oBra\xE7o-Sheet_5"
+  - first:
+      213: -1764458785208032796
+    second: "Anima\xE7\xE3oBra\xE7o-Sheet_4"
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -122,8 +125,8 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 42
-        height: 38
+        width: 51
+        height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,10 +144,10 @@ TextureImporter:
       name: "Anima\xE7\xE3oBra\xE7o-Sheet_1"
       rect:
         serializedVersion: 2
-        x: 42
+        x: 51
         y: 0
-        width: 42
-        height: 38
+        width: 51
+        height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -162,10 +165,10 @@ TextureImporter:
       name: "Anima\xE7\xE3oBra\xE7o-Sheet_2"
       rect:
         serializedVersion: 2
-        x: 84
+        x: 102
         y: 0
-        width: 42
-        height: 38
+        width: 51
+        height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -183,10 +186,10 @@ TextureImporter:
       name: "Anima\xE7\xE3oBra\xE7o-Sheet_3"
       rect:
         serializedVersion: 2
-        x: 126
+        x: 153
         y: 0
-        width: 42
-        height: 38
+        width: 51
+        height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -204,10 +207,10 @@ TextureImporter:
       name: "Anima\xE7\xE3oBra\xE7o-Sheet_4"
       rect:
         serializedVersion: 2
-        x: 168
+        x: 204
         y: 0
-        width: 42
-        height: 38
+        width: 51
+        height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -215,29 +218,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b84bc9f6b24e72f20800000000000000
-      internalID: 3397935319081596043
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Anima\xE7\xE3oBra\xE7o-Sheet_5"
-      rect:
-        serializedVersion: 2
-        x: 210
-        y: 0
-        width: 42
-        height: 38
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5dae6b58ae4acd3b0800000000000000
-      internalID: -5486328918871446827
+      spriteID: 4e1abd655126387e0800000000000000
+      internalID: -1764458785208032796
       vertices: []
       indices: 
       edges: []

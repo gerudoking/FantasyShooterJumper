@@ -17,6 +17,21 @@ TextureImporter:
   - first:
       213: -4393542077824643386
     second: "Anima\xE7\xE3oVoo-Sheet42x38_4"
+  - first:
+      213: -7538245799006826741
+    second: "Anima\xE7\xE3oVoo-Sheet42x38_0"
+  - first:
+      213: 2958858520789394681
+    second: "Anima\xE7\xE3oVoo-Sheet42x38_1"
+  - first:
+      213: 8862788950347997025
+    second: "Anima\xE7\xE3oVoo-Sheet42x38_2"
+  - first:
+      213: -6200908765659202153
+    second: "Anima\xE7\xE3oVoo-Sheet42x38_3"
+  - first:
+      213: 3011835608331966346
+    second: "Anima\xE7\xE3oVoo-Sheet42x38_4"
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -107,8 +122,8 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 42
-        height: 38
+        width: 51
+        height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -116,8 +131,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b9f3f05f7bbf79050800000000000000
-      internalID: 5807387012026548123
+      spriteID: b0f0e989265c26790800000000000000
+      internalID: -7538245799006826741
       vertices: []
       indices: 
       edges: []
@@ -126,10 +141,10 @@ TextureImporter:
       name: "Anima\xE7\xE3oVoo-Sheet42x38_1"
       rect:
         serializedVersion: 2
-        x: 42
+        x: 51
         y: 0
-        width: 42
-        height: 38
+        width: 51
+        height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -137,8 +152,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 998451947edc01640800000000000000
-      internalID: 5048761575529597081
+      spriteID: 9f42a40e52aff0920800000000000000
+      internalID: 2958858520789394681
       vertices: []
       indices: 
       edges: []
@@ -147,10 +162,10 @@ TextureImporter:
       name: "Anima\xE7\xE3oVoo-Sheet42x38_2"
       rect:
         serializedVersion: 2
-        x: 84
+        x: 102
         y: 0
-        width: 42
-        height: 38
+        width: 51
+        height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -158,8 +173,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aa252164f653b9030800000000000000
-      internalID: 3502451887243940522
+      spriteID: 16fdfb0e793fefa70800000000000000
+      internalID: 8862788950347997025
       vertices: []
       indices: 
       edges: []
@@ -168,10 +183,10 @@ TextureImporter:
       name: "Anima\xE7\xE3oVoo-Sheet42x38_3"
       rect:
         serializedVersion: 2
-        x: 126
+        x: 153
         y: 0
-        width: 42
-        height: 38
+        width: 51
+        height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -179,8 +194,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f2c8d53b67ce1a340800000000000000
-      internalID: 4873436266351135791
+      spriteID: 79df64ad452f1f9a0800000000000000
+      internalID: -6200908765659202153
       vertices: []
       indices: 
       edges: []
@@ -189,10 +204,10 @@ TextureImporter:
       name: "Anima\xE7\xE3oVoo-Sheet42x38_4"
       rect:
         serializedVersion: 2
-        x: 168
+        x: 204
         y: 0
-        width: 42
-        height: 38
+        width: 51
+        height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -200,8 +215,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6cec78912c00703c0800000000000000
-      internalID: -4393542077824643386
+      spriteID: a87df7447803cc920800000000000000
+      internalID: 3011835608331966346
       vertices: []
       indices: 
       edges: []

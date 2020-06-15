@@ -1,34 +1,31 @@
 fileFormatVersion: 2
-guid: 74fb6f4fe17ea1f48884a0da02e81c2b
+guid: 94da2f3317f46a044806262ef8f0a0a5
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7814544967194368310
-    second: BracoAtaque-Sheet_0
+      213: -7555497355753254435
+    second: ShieldFinal-Sheet_0
   - first:
-      213: -3676416941866753452
-    second: BracoAtaque-Sheet_1
+      213: 5639017379559760799
+    second: ShieldFinal-Sheet_1
   - first:
-      213: -5347850681617581100
-    second: BracoAtaque-Sheet_2
+      213: -467853876957674462
+    second: ShieldFinal-Sheet_2
   - first:
-      213: 1820214130913967563
-    second: BracoAtaque-Sheet_3
+      213: -6678483192874043144
+    second: ShieldFinal-Sheet_3
   - first:
-      213: 8909167850649596520
-    second: BracoAtaque-Sheet_4
+      213: -7203183069105377435
+    second: ShieldFinal-Sheet_4
   - first:
-      213: 7864200023587219519
-    second: BracoAtaque-Sheet_5
+      213: -910789535395100963
+    second: ShieldFinal-Sheet_5
   - first:
-      213: 5831299313431459006
-    second: BracoAtaque-Sheet_6
+      213: -7401793792699142159
+    second: ShieldFinal-Sheet_6
   - first:
-      213: 1511789358051019228
-    second: BracoAtaque-Sheet_7
-  - first:
-      213: -954668859932873231
-    second: BracoAtaque-Sheet_8
+      213: -6150615817901312244
+    second: ShieldFinal-Sheet_7
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -110,17 +107,29 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: BracoAtaque-Sheet_0
+      name: ShieldFinal-Sheet_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 43
-        height: 39
+        width: 51
+        height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,20 +137,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 639dfe29e37d27c60800000000000000
-      internalID: 7814544967194368310
+      spriteID: dd19ce88f2b752790800000000000000
+      internalID: -7555497355753254435
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BracoAtaque-Sheet_1
+      name: ShieldFinal-Sheet_1
       rect:
         serializedVersion: 2
-        x: 43
+        x: 51
         y: 0
-        width: 43
-        height: 39
+        width: 51
+        height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -149,20 +158,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 452edc5154ebafcc0800000000000000
-      internalID: -3676416941866753452
+      spriteID: f93e9ee0e60d14e40800000000000000
+      internalID: 5639017379559760799
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BracoAtaque-Sheet_2
+      name: ShieldFinal-Sheet_2
       rect:
         serializedVersion: 2
-        x: 86
+        x: 102
         y: 0
-        width: 43
-        height: 39
+        width: 51
+        height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -170,20 +179,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4db7a52a32e98c5b0800000000000000
-      internalID: -5347850681617581100
+      spriteID: 2240621b069d189f0800000000000000
+      internalID: -467853876957674462
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BracoAtaque-Sheet_3
+      name: ShieldFinal-Sheet_3
       rect:
         serializedVersion: 2
-        x: 129
+        x: 153
         y: 0
-        width: 43
-        height: 39
+        width: 51
+        height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -191,20 +200,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bcdf540bb13b24910800000000000000
-      internalID: 1820214130913967563
+      spriteID: 8f873529be24153a0800000000000000
+      internalID: -6678483192874043144
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BracoAtaque-Sheet_4
+      name: ShieldFinal-Sheet_4
       rect:
         serializedVersion: 2
-        x: 172
+        x: 204
         y: 0
-        width: 43
-        height: 39
+        width: 51
+        height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -212,20 +221,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 862bc4615f8b3ab70800000000000000
-      internalID: 8909167850649596520
+      spriteID: 56fadd9a927290c90800000000000000
+      internalID: -7203183069105377435
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BracoAtaque-Sheet_5
+      name: ShieldFinal-Sheet_5
       rect:
         serializedVersion: 2
-        x: 215
+        x: 255
         y: 0
-        width: 43
-        height: 39
+        width: 51
+        height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -233,20 +242,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f38e8805140432d60800000000000000
-      internalID: 7864200023587219519
+      spriteID: dd6c1ad3eb93c53f0800000000000000
+      internalID: -910789535395100963
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BracoAtaque-Sheet_6
+      name: ShieldFinal-Sheet_6
       rect:
         serializedVersion: 2
-        x: 258
+        x: 306
         y: 0
-        width: 43
-        height: 39
+        width: 51
+        height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -254,20 +263,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eb4bf0c74dfece050800000000000000
-      internalID: 5831299313431459006
+      spriteID: 1ffe97d03cb874990800000000000000
+      internalID: -7401793792699142159
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BracoAtaque-Sheet_7
+      name: ShieldFinal-Sheet_7
       rect:
         serializedVersion: 2
-        x: 301
+        x: 357
         y: 0
-        width: 43
-        height: 39
+        width: 51
+        height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -275,29 +284,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cd9c8dd4964faf410800000000000000
-      internalID: 1511789358051019228
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BracoAtaque-Sheet_8
-      rect:
-        serializedVersion: 2
-        x: 344
-        y: 0
-        width: 43
-        height: 39
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1fde29ddab550c2f0800000000000000
-      internalID: -954668859932873231
+      spriteID: c07f710408f94aaa0800000000000000
+      internalID: -6150615817901312244
       vertices: []
       indices: 
       edges: []

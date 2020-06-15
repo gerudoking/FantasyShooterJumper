@@ -57,9 +57,11 @@ public class CollisionDeathV2 : MonoBehaviour
         value.speed /= 2;
         gameObjects.transform.GetChild(0).position = new Vector3(-7, 0, 0);
 
-        for (int i = 1; i < gameObjects.transform.childCount; i++) {
+        /*for (int i = 1; i < gameObjects.transform.childCount; i++) {
             gameObjects.transform.GetChild(i).GetComponent<Spawner>().Restart();
-        }
+        }*/
+
+        gameObjects.transform.GetChild(2).GetComponent<Spawner>().Restart();
 
         gameoverPoints.text = "Score: " + PointCounter.points;
 
