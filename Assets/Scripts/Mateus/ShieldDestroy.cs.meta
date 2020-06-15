@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 72a61d6dfc4e1c944907038b318e54ca
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - ShieldDissolve: {fileID: 2100000, guid: f91f99e6c994050479b7a1c85318007d, type: 2}
+  - Bloom: {fileID: 2100000, guid: b3e5e6109a51ec546a4a8ac79b96d7c0, type: 2}
+  - Shield2: {fileID: 2590539339629166377, guid: ce38bae3096b6f74c9f4a31b55d32bb7,
+      type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
