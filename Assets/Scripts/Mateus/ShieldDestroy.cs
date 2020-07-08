@@ -7,12 +7,12 @@ public class ShieldDestroy : MonoBehaviour
 
     public Material ShieldDissolve;
     public Material Bloom;
-    private bool isDissolving = false;
+    public bool isDissolving = false;
     private float fade = 1.0f;
     public GameObject Shield2;
     void Start()
     {
-        Shield2.SetActive(false);
+        //Shield2.SetActive(false);
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -20,26 +20,33 @@ public class ShieldDestroy : MonoBehaviour
         if (collision.gameObject.tag == "Obstaculo")
         {
             Debug.Log("GameOver");
-                StartDestroy();
+            //StartDestroy();
         }
     }
 
+    public void ResetShield() {
+        isDissolving = false;
+        fade = 1.0f;
+        ShieldDissolve.SetFloat("_Fade", fade);
+        GetComponent<SpriteRenderer>().material = Bloom;
+    }
 
-    private void StartDestroy()
+    public void StartDestroy()
     {
+        GetComponent<SpriteRenderer>().material = ShieldDissolve;
         isDissolving = true;
     }
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.E))
+        /*if (Input.GetKeyDown(KeyCode.E))
         {
             GetComponent<SpriteRenderer>().material = Bloom;
             isDissolving = false;
             fade = 1.0f;
-        }
+        }*/
 
-        if (Input.GetKeyDown(KeyCode.G))
-            StartDestroy();
+        //if (Input.GetKeyDown(KeyCode.G))
+        //    StartDestroy();
 
    
         if (isDissolving)
@@ -50,8 +57,8 @@ public class ShieldDestroy : MonoBehaviour
             {
                 fade = 0.0f;
                 Shield2.SetActive(false);
+                ResetShield();
             }
-            ShieldDissolve = GetComponent<SpriteRenderer>().material = ShieldDissolve;
             ShieldDissolve.SetFloat("_Fade", fade);
         }
     }

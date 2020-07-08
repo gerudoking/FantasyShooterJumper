@@ -8,19 +8,19 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2590539339629166377}
-  m_BodyType: 2
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!58 &5916405944517356673
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -46,11 +46,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 2590539339629166377}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 072ec61c0c12c43489c472caa20aa641, type: 3}
+  m_Script: {fileID: 11500000, guid: 72a61d6dfc4e1c944907038b318e54ca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Dissolve: {fileID: 2100000, guid: 371cf4b2e5bbc1c49be43a65ef3a5da7, type: 2}
-  Bloom: {fileID: 2100000, guid: b3e5e6109a51ec546a4a8ac79b96d7c0, type: 2}
+  ShieldDissolve: {fileID: 0}
+  Bloom: {fileID: 0}
+  Shield2: {fileID: 0}
 --- !u!114 &3335967011148626365
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -134,7 +135,7 @@ PrefabInstance:
     - target: {fileID: 516977215479062444, guid: 07c16814926887147b52f16b6642b550,
         type: 3}
       propertyPath: m_TagString
-      value: bullet
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 516977215479062416, guid: 07c16814926887147b52f16b6642b550, type: 3}

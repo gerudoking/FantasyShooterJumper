@@ -16,6 +16,10 @@ public class CollisionDeathV2 : MonoBehaviour
     private Material armMat;
     private bool isDissolving = false;
     private float fade = 1.0f;
+    public bool withShield = false;
+    private bool invFrame = false;
+    private float invFrameDuration = 1.5f;
+    private float invFrameTimer = 0.0f;
 
     private void Start() {
         mat = GetComponent<SpriteRenderer>().material;
@@ -26,12 +30,32 @@ public class CollisionDeathV2 : MonoBehaviour
     {
         if (collision.gameObject.tag == "Obstaculo")
         {
+            if (withShield) {
+                transform.GetChild(1).GetComponent<ShieldDestroy>().StartDestroy();
+                invFrame = true;
+                invFrameTimer = invFrameDuration;
+                withShield = false;
+                return;
+            }
+
+            if (invFrame) {
+                return;
+            }
+
             isDissolving = true;
         }
     }
 
     private void Update()
     {
+        if (invFrame) {
+            invFrameTimer -= Time.deltaTime;
+
+            if(invFrameTimer <= 0) {
+                invFrame = false;
+            }
+        }
+
         if (isDissolving) {
             fade -= Time.deltaTime * 2;
 
@@ -54,7 +78,7 @@ public class CollisionDeathV2 : MonoBehaviour
 
     private void GameOver() {
         Debug.Log("Game Over");
-        value.speed /= 2;
+        value.speed = 140;
         gameObjects.transform.GetChild(0).position = new Vector3(-7, 0, 0);
 
         /*for (int i = 1; i < gameObjects.transform.childCount; i++) {
