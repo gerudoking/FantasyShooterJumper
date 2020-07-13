@@ -14,6 +14,11 @@ public class PowerUp : MonoBehaviour
                 collision.transform.GetChild(1).gameObject.SetActive(true);
                 Destroy(gameObject);
             }
+
+            if(powerUpType == 1) {
+                collision.transform.GetChild(0).GetComponent<ShootController>().speedShot = true;
+                Destroy(gameObject);
+            }
         }
     }
 }

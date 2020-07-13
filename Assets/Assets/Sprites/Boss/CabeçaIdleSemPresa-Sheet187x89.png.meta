@@ -1,0 +1,500 @@
+fileFormatVersion: 2
+guid: b34d92eaac483d34da7c537ae9967c4c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5029231756949615789
+    second: "Cabe\xE7aIdleSemPresa-Sheet187x89_0"
+  - first:
+      213: -5635520680715560658
+    second: "Cabe\xE7aIdleSemPresa-Sheet187x89_1"
+  - first:
+      213: 4720284786823863864
+    second: "Cabe\xE7aIdleSemPresa-Sheet187x89_2"
+  - first:
+      213: -5366453604567360462
+    second: "Cabe\xE7aIdleSemPresa-Sheet187x89_3"
+  - first:
+      213: 4505555069517402148
+    second: "Cabe\xE7aIdleSemPresa-Sheet187x89_4"
+  - first:
+      213: 8427053682437438301
+    second: "Cabe\xE7aIdleSemPresa-Sheet187x89_5"
+  - first:
+      213: 634466775255317253
+    second: "Cabe\xE7aIdleSemPresa-Sheet187x89_6"
+  - first:
+      213: -4085805506642830083
+    second: "Cabe\xE7aIdleSemPresa-Sheet187x89_7"
+  - first:
+      213: 6473467198865849446
+    second: "Cabe\xE7aIdleSemPresa-Sheet187x89_8"
+  - first:
+      213: 4681244495947170814
+    second: "Cabe\xE7aIdleSemPresa-Sheet187x89_9"
+  - first:
+      213: -5307737476279219934
+    second: "Cabe\xE7aIdleSemPresa-Sheet187x89_10"
+  - first:
+      213: -3416991078413657526
+    second: "Cabe\xE7aIdleSemPresa-Sheet187x89_11"
+  - first:
+      213: -90854753815063350
+    second: "Cabe\xE7aIdleSemPresa-Sheet187x89_12"
+  - first:
+      213: -7503733447991893425
+    second: "Cabe\xE7aIdleSemPresa-Sheet187x89_13"
+  - first:
+      213: 2416061079242561039
+    second: "Cabe\xE7aIdleSemPresa-Sheet187x89_14"
+  - first:
+      213: 8873881398662643158
+    second: "Cabe\xE7aIdleSemPresa-Sheet187x89_15"
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "Cabe\xE7aIdleSemPresa-Sheet187x89_0"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 187
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da4781e03ab6bc540800000000000000
+      internalID: 5029231756949615789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cabe\xE7aIdleSemPresa-Sheet187x89_1"
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 0
+        width: 187
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e29d4959ccb9ac1b0800000000000000
+      internalID: -5635520680715560658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cabe\xE7aIdleSemPresa-Sheet187x89_2"
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 0
+        width: 187
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83e11552102d18140800000000000000
+      internalID: 4720284786823863864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cabe\xE7aIdleSemPresa-Sheet187x89_3"
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 0
+        width: 187
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23cd52c11e68685b0800000000000000
+      internalID: -5366453604567360462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cabe\xE7aIdleSemPresa-Sheet187x89_4"
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 0
+        width: 187
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4209b8ad672f68e30800000000000000
+      internalID: 4505555069517402148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cabe\xE7aIdleSemPresa-Sheet187x89_5"
+      rect:
+        serializedVersion: 2
+        x: 935
+        y: 0
+        width: 187
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5bb4dcfca8e2f470800000000000000
+      internalID: 8427053682437438301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cabe\xE7aIdleSemPresa-Sheet187x89_6"
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 0
+        width: 187
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50b71e8ab241ec800800000000000000
+      internalID: 634466775255317253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cabe\xE7aIdleSemPresa-Sheet187x89_7"
+      rect:
+        serializedVersion: 2
+        x: 1309
+        y: 0
+        width: 187
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfc183b0a8d4c47c0800000000000000
+      internalID: -4085805506642830083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cabe\xE7aIdleSemPresa-Sheet187x89_8"
+      rect:
+        serializedVersion: 2
+        x: 1496
+        y: 0
+        width: 187
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66cba859e1066d950800000000000000
+      internalID: 6473467198865849446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cabe\xE7aIdleSemPresa-Sheet187x89_9"
+      rect:
+        serializedVersion: 2
+        x: 1683
+        y: 0
+        width: 187
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef30fa7111f17f040800000000000000
+      internalID: 4681244495947170814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cabe\xE7aIdleSemPresa-Sheet187x89_10"
+      rect:
+        serializedVersion: 2
+        x: 1870
+        y: 0
+        width: 187
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 229495d03e02756b0800000000000000
+      internalID: -5307737476279219934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cabe\xE7aIdleSemPresa-Sheet187x89_11"
+      rect:
+        serializedVersion: 2
+        x: 2057
+        y: 0
+        width: 187
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4a997ad7b86490d0800000000000000
+      internalID: -3416991078413657526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cabe\xE7aIdleSemPresa-Sheet187x89_12"
+      rect:
+        serializedVersion: 2
+        x: 2244
+        y: 0
+        width: 187
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac492b035183dbef0800000000000000
+      internalID: -90854753815063350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cabe\xE7aIdleSemPresa-Sheet187x89_13"
+      rect:
+        serializedVersion: 2
+        x: 2431
+        y: 0
+        width: 187
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f42e93f7f226dd790800000000000000
+      internalID: -7503733447991893425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cabe\xE7aIdleSemPresa-Sheet187x89_14"
+      rect:
+        serializedVersion: 2
+        x: 2618
+        y: 0
+        width: 187
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0656ef20c2978120800000000000000
+      internalID: 2416061079242561039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cabe\xE7aIdleSemPresa-Sheet187x89_15"
+      rect:
+        serializedVersion: 2
+        x: 2805
+        y: 0
+        width: 187
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ddbb32cd1c562b70800000000000000
+      internalID: 8873881398662643158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

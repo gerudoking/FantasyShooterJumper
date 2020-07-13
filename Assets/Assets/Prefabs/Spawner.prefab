@@ -61,7 +61,9 @@ MonoBehaviour:
   - {fileID: 7694202349166093447, guid: f98485582ec29f043a72462e6dc9c6d3, type: 3}
   - {fileID: 7694202349166093447, guid: 67ce93408da92fd4c9691eb09b673277, type: 3}
   - {fileID: 7694202349166093447, guid: 5c1f90c1ee8776d4c80164aeab4f3464, type: 3}
-  spawnTime: 6
+  - {fileID: 7694202349166093447, guid: 5a79c4f302112c44698f980fd197bb55, type: 3}
+  - {fileID: 7694202349166093447, guid: cd08cbe3f414b0d45b299846064ddbcf, type: 3}
+  spawnTime: 4.1
   offset: {x: 0, y: 0, z: 0}
 --- !u!114 &4690501904637801325
 MonoBehaviour:

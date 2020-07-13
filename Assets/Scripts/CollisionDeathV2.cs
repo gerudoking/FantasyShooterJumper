@@ -81,6 +81,10 @@ public class CollisionDeathV2 : MonoBehaviour
         value.speed = 140;
         gameObjects.transform.GetChild(0).position = new Vector3(-7, 0, 0);
 
+        if (FindObjectOfType<BossIA>()) {
+            FindObjectOfType<BossIA>().CallDie();
+        }
+
         /*for (int i = 1; i < gameObjects.transform.childCount; i++) {
             gameObjects.transform.GetChild(i).GetComponent<Spawner>().Restart();
         }*/
@@ -91,6 +95,7 @@ public class CollisionDeathV2 : MonoBehaviour
 
         PointCounter.points = 0;
 
+        FindObjectOfType<PointCounter>().bossTreshold = 300;
         isDissolving = false;
 
         fade = 1.0f;

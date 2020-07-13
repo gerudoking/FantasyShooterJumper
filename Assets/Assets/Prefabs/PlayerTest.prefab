@@ -303,9 +303,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   projectilePrefab: {fileID: 5119937026414158787, guid: 967fbe2c4026dce46bc90708ccf2037c,
     type: 3}
-  shootCooldown: 0.3
-  shootSpeed: 45000
+  shootCooldown: 0.6
+  shootSpeed: 300
+  speedShootCooldown: 0.1
   armAnim: {fileID: 5679904097462675555}
+  speedShot: 0
 --- !u!1001 &2129655439879296397
 PrefabInstance:
   m_ObjectHideFlags: 0

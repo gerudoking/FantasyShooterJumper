@@ -140,7 +140,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   value: {fileID: 11400000, guid: a71f79f4fc96f9546856498dfca1d924, type: 2}
-  extraSpeed: 0.5
+  extraSpeed: -1
   finalPosition: -13
   usesParallax: 0
   parallaxFactor: 0
